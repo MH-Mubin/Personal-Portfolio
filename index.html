@@ -66,7 +66,7 @@
                 <a class="nav-link" href="#services">Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#portfolio">Portfolio</a>
+                <a class="nav-link" href="#Projects">Projects</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#contact">Contact</a>
@@ -548,7 +548,9 @@
             <h2>Some of my Latest Projects</h2>
             <p>
               Showcasing My Recent Projects Built with Modern Web Technologies
-              and Scalable Architectures
+              and Scalable Architectures. There are some of my Backend projects
+              using node.js and express.js that I couldn't showcase here. Please
+              visit my github for more projects.
               <br class="d-none d-md-block" />
             </p>
           </div>
@@ -664,42 +666,58 @@
                 >
               </div>
             </div>
-
             <!-- Input form section -->
-            <form>
+            <form
+              action="https://formsubmit.co/mahmud.h.mubin@gmail.com"
+              method="POST"
+            >
+              <!-- Optional: Disable CAPTCHA -->
+              <input type="hidden" name="_captcha" value="false" />
+
               <div class="mb-4">
                 <input
                   type="text"
+                  name="name"
                   class="form-control"
                   placeholder="Your Name..."
                   autocomplete="off"
+                  required
                 />
               </div>
+
               <div class="mb-4">
                 <input
-                  type="phone"
+                  type="tel"
+                  name="phone"
                   class="form-control"
                   placeholder="Your Phone number..."
                   autocomplete="off"
+                  required
                 />
               </div>
+
               <div class="mb-4">
                 <input
                   type="email"
+                  name="email"
                   class="form-control"
                   placeholder="Your Email..."
                   autocomplete="off"
+                  required
                 />
               </div>
+
               <div class="mb-4">
                 <textarea
                   rows="4"
+                  name="message"
                   class="form-control"
-                  id="message"
                   placeholder="Write a Message..."
                   autocomplete="off"
+                  required
                 ></textarea>
               </div>
+
               <button type="submit" class="main-btn">Submit</button>
             </form>
           </div>
