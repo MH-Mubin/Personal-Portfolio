@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mahmud Hasan Mubin</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- custom file link -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive_style.css" />
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
+    <!-- Navbar section -->
+
+    <header class="header_wrapper">
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img
+              src="./images/Logo_2_without bg.png"
+              class="img-fluid"
+              alt="logo"
+              srcset=""
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <i class="fa-solid fa-bars-staggered"></i>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav menu-navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item mt-3 mt-lg-0">
+                <a class="main-btn" href="#contact">Hire me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Navbar Section exit -->
+
+    <!-- Banner Section -->
+    <section id="home" class="banner_wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center text-md-start">
+            <h6>Welcome to my portfolio</h6>
+            <h1>Hi, I'm Mubin</h1>
+            <br />
+            <span><h2>Full-Stack Web Developer.</h2></span> <br />
+            <h2>Based in Dhaka, Bangladesh.</h2>
+            <div class="mt-4">
+              <a
+                href="./Assets/Resume_Mahmud Hasan Mubin.pdf"
+                download="Resume_Mahmud Hasan Mubin.pdf"
+                class="main-btn"
+                >Download Resume</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Banner Section exit-->
+
+    <!-- About Section -->
+    <section id="about" class="about_wrapper">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-lg-5 mb-4 mb-lg-0">
+            <img
+              src="./images/IMG_4.jpg"
+              class="img-fluid rounded-3"
+              alt="About-us"
+            />
+          </div>
+          <div class="col-lg-7 ps-lg-5 text-center text-lg-start">
+            <div class="my-3 mb-lg-0">
+              <span class="subtitle">My Details</span>
+              <h2>About Me</h2>
+              <p>
+                I am an enthusiastic Full-Stack Developer with proficiency in
+                HTML, CSS, JavaScript, and Node.js. Additionally, I'm skilled in
+                frameworks and JavaScript libraries like Express.js, React.js,
+                and databases such as MongoDB and PostgreSQL. I develop RESTful
+                APIs and dynamic, user-friendly web applications, aiming to
+                create impactful solutions using technical expertise and
+                problem-solving skills.
+                <!-- I’m a full-stack web developer who create dynamic, responsive
+                and visually appealing websites.I'm expert to write HTML, CSS,
+                JavaScript, React js for front-end, and Node js and Express js
+                for backend. I also work in database using MongoDB and MySQL. -->
+              </p>
+            </div>
+            <div class="pt-4">
+              <ul
+                class="nav nav-pills justify-content-center justify-content-lg-between mb-3"
+                id="pills-tab"
+                role="tablist"
+              >
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link active"
+                    id="pills-skill-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-skill"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-skill"
+                    aria-selected="true"
+                  >
+                    Main Skill
+                  </button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-Award-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-Award"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-Award"
+                    aria-selected="false"
+                  >
+                    Awards
+                  </button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-experience-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-experience"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-experience"
+                    aria-selected="false"
+                  >
+                    Experience
+                  </button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-education-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-education"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-education"
+                    aria-selected="false"
+                  >
+                    Education
+                  </button>
+                </li>
+              </ul>
+
+              <!-- Progress-bar edit section -->
+              <div class="tab-content" id="pills-tabContent">
+                <div
+                  class="tab-pane fade show active"
+                  id="pills-skill"
+                  role="tabpanel"
+                  aria-labelledby="pills-skill-tab"
+                  tabindex="0"
+                >
+                  <div class="single-progress">
+                    <h6>Designing</h6>
+                    <div
+                      class="progress"
+                      role="progressbar"
+                      aria-label="designing"
+                      aria-valuenow="0"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    >
+                      <div class="progress-bar" style="width: 75%"></div>
+                    </div>
+                    <span class="label">75%</span>
+                  </div>
+
+                  <div class="single-progress">
+                    <h6>Programming</h6>
+                    <div
+                      class="progress"
+                      role="progressbar"
+                      aria-label="Programming"
+                      aria-valuenow="0"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    >
+                      <div class="progress-bar" style="width: 95%"></div>
+                    </div>
+                    <span class="label">95%</span>
+                  </div>
+
+                  <div class="single-progress">
+                    <h6>Problem Solving</h6>
+                    <div
+                      class="progress"
+                      role="progressbar"
+                      aria-label="problem-solving"
+                      aria-valuenow="0"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    >
+                      <div class="progress-bar" style="width: 80%"></div>
+                    </div>
+                    <span class="label">80%</span>
+                  </div>
+
+                  <div class="single-progress">
+                    <h6>Database</h6>
+                    <div
+                      class="progress"
+                      role="progressbar"
+                      aria-label="database"
+                      aria-valuenow="0"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    >
+                      <div class="progress-bar" style="width: 85%"></div>
+                    </div>
+                    <span class="label">85%</span>
+                  </div>
+                </div>
+
+                <!-- Award edit Section -->
+                <div
+                  class="tab-pane fade"
+                  id="pills-Award"
+                  role="tabpanel"
+                  aria-labelledby="pills-Award-tab"
+                  tabindex="0"
+                >
+                  <ul class="text-start ps-0">
+                    <li>
+                      <a href="#">
+                        Inter university programming contest
+                        <span> - Winner</span>
+                      </a>
+                      2017-2018
+                    </li>
+
+                    <!-- <li>
+                      <a href="#">
+                        CSS best designer Award
+                        <span> - Winner</span>
+                      </a>
+                      2021-2022
+                    </li>
+
+                    <li>
+                      <a href="#">
+                        Best Defender of the season
+                        <span> - Winner</span>
+                      </a>
+                      2021-2022
+                    </li>
+
+                    <li>
+                      <a href="#">
+                        Inter university programming contest
+                        <span> - Winner</span>
+                      </a>
+                      2017-2018
+                    </li> -->
+                  </ul>
+                </div>
+
+                <!-- Experience edit section -->
+                <div
+                  class="tab-pane fade"
+                  id="pills-experience"
+                  role="tabpanel"
+                  aria-labelledby="pills-experience-tab"
+                  tabindex="0"
+                >
+                  <ul class="text-start ps-0">
+                    <!-- <li>
+                      <a href="#">
+                        Full-Stack Web Developer
+                        <span> - Google</span>
+                      </a>
+                      2022-Current
+                    </li>
+
+                    <li>
+                      <a href="#">
+                        Junior MERN Stack Developer
+                        <span> - Amazon</span>
+                      </a>
+                      2019-2022
+                    </li> -->
+
+                    <li>
+                      <a href="#">
+                        Data Analyst
+                        <span> - ADN Diginet limited</span>
+                      </a>
+                      May, 2023 -July, 2023
+                    </li>
+
+                    <li>
+                      <a href="#">
+                        IT executive
+                        <span> - CBS Advisory</span>
+                      </a>
+                      February, 2022 - April, 2023
+                    </li>
+                  </ul>
+                </div>
+
+                <!-- Education edit section -->
+
+                <div
+                  class="tab-pane fade"
+                  id="pills-education"
+                  role="tabpanel"
+                  aria-labelledby="pills-education-tab"
+                  tabindex="0"
+                >
+                  <ul class="text-start ps-0">
+                    <li>
+                      <a href="#">
+                        BSc in Computer Science and Engineering
+                        <span>
+                          - Bangladesh University of Business and
+                          Technology</span
+                        >
+                      </a>
+                      2017-2022
+                    </li>
+
+                    <li>
+                      <a href="#">
+                        Higher Secondary School Certificate
+                        <span>
+                          - Major General Mahmudul Hasan Adarsha College,
+                          Tangail.</span
+                        >
+                      </a>
+                      2013-2015
+                    </li>
+
+                    <li>
+                      <a href="#">
+                        Secondary School Certificate
+                        <span>
+                          - Bindubashini Govt. Boys High School, Tangail.</span
+                        >
+                      </a>
+                      2008-2013
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section exit-->
+
+    <!-- Services Section -->
+
+    <section id="services" class="services_wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center mb-4">
+            <span class="subtitle">My Services</span>
+            <h2>Services I Provide</h2>
+            <p>
+              I provide full-stack web development services, including UI/UX
+              Design, front-end design, back-end API development, and database
+              integration.
+              <br class="d-none d-md-block" />
+              <!-- Ea, doloremque. -->
+            </p>
+          </div>
+        </div>
+        <!-- Cards edit Section -->
+        <div class="row">
+          <!-- Card_1 -->
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="card-body text-md-start text-center">
+                <img
+                  src="./images/service/service-1.svg"
+                  alt="service"
+                  class="img-fluid mb-4"
+                />
+                <h3>UI/UX Design</h3>
+                <p>
+                  Creative and User-Centered UI/UX Designer Crafting Seamless
+                  Digital Experiences.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Card_2 -->
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="card-body text-md-start text-center">
+                <img
+                  src="./images/service/service-2.svg"
+                  alt="service"
+                  class="img-fluid mb-4"
+                />
+                <h3>Front-end Development</h3>
+                <p>
+                  Innovative Front-End Developer Building Responsive and
+                  Engaging Web Interfaces.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Card_3 -->
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="card-body text-md-start text-center">
+                <img
+                  src="./images/service/service-3.svg"
+                  alt="service"
+                  class="img-fluid mb-4"
+                />
+                <h3>Back-end Development</h3>
+                <p>
+                  Building Scalable and Secure Server-Side Applications with
+                  Modern Web Technologies.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Card_4 -->
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="card-body text-md-start text-center">
+                <img
+                  src="./images/service/service-4.svg"
+                  alt="service"
+                  class="img-fluid mb-4"
+                />
+                <h3>Database Management</h3>
+                <p>
+                  Efficiently Designing, Managing, and Optimizing Relational and
+                  NoSQL Databases.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Card_5 -->
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="card-body text-md-start text-center">
+                <img
+                  src="./images/service/service-1.svg"
+                  alt="service"
+                  class="img-fluid mb-4"
+                />
+                <h3>Data Analysis</h3>
+                <p>
+                  Transforming Raw Data into Actionable Insights for Smarter
+                  Business Decisions.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Card_6 -->
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="card-body text-md-start text-center">
+                <img
+                  src="./images/service/service-1.svg"
+                  alt="service"
+                  class="img-fluid mb-4"
+                />
+                <h3>Data Visualization</h3>
+                <p>
+                  Crafting Interactive and Informative Visuals to Tell Powerful
+                  Data Stories.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section exit-->
+
+    <!-- portfolio Section -->
+
+    <section id="portfolio" class="portfolio_wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center mb-4">
+            <span class="subtitle">Projects of Mine</span>
+            <h2>Some of my Latest Projects</h2>
+            <p>
+              Showcasing My Recent Projects Built with Modern Web Technologies
+              and Scalable Architectures
+              <br class="d-none d-md-block" />
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <!-- Project_image_1 -->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card p-0">
+              <span
+                style="
+                  background-image: url(./images/portfolio/Christmas-Landing-Page.png);
+                "
+              ></span>
+            </div>
+          </div>
+          <!-- project_image_2 -->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card p-0">
+              <span
+                style="
+                  background-image: url(./images/portfolio/App-Landing-Page.png);
+                "
+              ></span>
+            </div>
+          </div>
+          <!-- Project_image_3 -->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card p-0">
+              <span
+                style="
+                  background-image: url(./images/portfolio/E-Commerce-Website-Using-Bootstap-5.png);
+                "
+              ></span>
+            </div>
+          </div>
+
+          <!-- Project_image_4 -->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card p-0">
+              <span
+                style="
+                  background-image: url(./images/portfolio/Ecommerce-Jewellery-Website.png);
+                "
+              ></span>
+            </div>
+          </div>
+
+          <!-- Project_image_5 -->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card p-0">
+              <span
+                style="background-image: url(./images/portfolio/Foodies.png)"
+              ></span>
+            </div>
+          </div>
+
+          <!-- Project_image_6 -->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card p-0">
+              <span
+                style="
+                  background-image: url(./images/portfolio/Hashtag-Landing-Page.png);
+                "
+              ></span>
+            </div>
+          </div>
+
+          <!-- Project_image_7 -->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card p-0">
+              <span
+                style="background-image: url(./images/portfolio/HeadPhones.png)"
+              ></span>
+            </div>
+          </div>
+
+          <!-- Project_image_8 -->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card p-0">
+              <span
+                style="
+                  background-image: url(./images/portfolio/Pizza-Landing-Page.png);
+                "
+              ></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section exit-->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact_wrapper">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div
+            class="col-lg-6 order-2 order-lg-1 pe-lg-5 text-lg-start text-center"
+          >
+            <span class="subtitle">Hello There,</span>
+            <h2>Hire Me</h2>
+            <div class="row call_detail mb-4">
+              <label class="col-sm-3 col-lg-4">Contact number</label>
+
+              <div class="col-sm-9 col-lg-8 mb-3 mb-lg-2 text-md-start">
+                <a href="javascript:void(0)">+88 01754595024</a>
+              </div>
+
+              <label class="col-sm-3 col-lg-4">Contact Email</label>
+              <div class="col-sm-9 col-lg-8 mb-3 mb-lg-2 text-md-start">
+                <a href="mailto:mahmud.h.mubin@gmail.com"
+                  >mahmud.h.mubin@gmail.com</a
+                >
+              </div>
+            </div>
+
+            <!-- Input form section -->
+            <form>
+              <div class="mb-4">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Your Name..."
+                  autocomplete="off"
+                />
+              </div>
+              <div class="mb-4">
+                <input
+                  type="phone"
+                  class="form-control"
+                  placeholder="Your Phone number..."
+                  autocomplete="off"
+                />
+              </div>
+              <div class="mb-4">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Your Email..."
+                  autocomplete="off"
+                />
+              </div>
+              <div class="mb-4">
+                <textarea
+                  rows="4"
+                  class="form-control"
+                  id="message"
+                  placeholder="Write a Message..."
+                  autocomplete="off"
+                ></textarea>
+              </div>
+              <button type="submit" class="main-btn">Submit</button>
+            </form>
+          </div>
+          <div class="col-lg-6 order-1 md-4 order-lg-1 mb-lg-0">
+            <img src="./images/IMG_1.jpg" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section exit-->
+
+    <!-- Footer Section -->
+
+    <section id="contact" class="footer_wrapper mt-3 mt-md-0">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-4 col-md-6 text-center text-md-start">
+            <div class="footer-logo mb-3 mb-md-0">
+              <img src="./images/Logo_2_without bg.png" class="img-fluid" />
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <ul
+              class="list-unstyled d-flex justify-content-center justify-content-md-end justify-content-lg-center social-icon mb-3 mb-md-0"
+            >
+              <li>
+                <a href="https://www.instagram.com/mahmud_hasan_mubin/"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/mh.mubin.840818/"
+                  ><i class="fa-brands fa-facebook"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/mahmud-hasan-mubin/"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://github.com/MH-Mubin"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <div class="copyright-text text-lg-start text-center mb-3 mb-lg-0">
+              <p class="mb-0">
+                Copyright © 2024 <a href="#">Mahmud Hasan Mubin</a>. All Rights
+                Reserved
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section exit-->
+
+    <!-- JS cdn Links -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
